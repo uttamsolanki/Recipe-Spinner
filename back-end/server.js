@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt");
 const app = express();
 let port = 3000;
 
-let dev_db_url = 'mongodb://uttamuser:Uttam12345@ds127129.mlab.com:27129/recipe-spinner';
+let dev_db_url = '';
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB,{useNewUrlParser: true});
 mongoose.Promise = global.Promise;
