@@ -8,7 +8,7 @@
     "android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
   },
   "dependencies": {
-    "electron": "^3.0.9",
+    "electron": "^13.6.6",
     "install": "^0.12.2",
     "native-base": "^2.8.1",
     "react": "^16.6.0-alpha.8af6728",
